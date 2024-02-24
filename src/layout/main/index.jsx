@@ -1,6 +1,6 @@
 export const Main = ({children}) => {
     return (
-        <main className="w-full h-[100vh] bg-gradient-to-r from-primary_dark to-primary_light"> 
+        <main className="w-2/3 text-center mx-auto h-[100vh]"> 
             {children}
         </main>
     )
