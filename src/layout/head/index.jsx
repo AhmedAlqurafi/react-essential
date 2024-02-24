@@ -1,7 +1,6 @@
 import Head from "next/head"
 
 export const AppHead = ({metadata}) => {
-  console.log("Metadata: ", metadata)
     return <Head>
         <title>{metadata.title}</title>
       <meta name="description" content={metadata.description} />

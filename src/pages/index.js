@@ -1,11 +1,13 @@
 import Layout from "@/layout";
-import Metadata from "../utils";
+import {Metadata} from "../utils";
 
 export default function Home({metadata}) {
   return (
     <Layout metadata={metadata}
     >
+      <h1 className="text-white">
       React Essentials
+</h1>
     </Layout>
   );
 }
